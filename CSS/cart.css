@@ -1,0 +1,94 @@
+/* Main Cart Container */
+#cart-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f5;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1), 0px 12px 24px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+#cart-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Product Display */
+#displayProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.all-product {
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.all-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.all-product img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.all-product p {
+    flex: 1;
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Delete Button */
+.delete-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    outline: none;
+}
+
+.delete-btn:hover {
+    background-color: #ff6666;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn:active {
+    transform: translateY(3px);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Total Price Display */
+#totalPrice {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #333;
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 50px;
+}
