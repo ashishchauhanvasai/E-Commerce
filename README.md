@@ -21,17 +21,18 @@ Dummy API: Used to simulate product data.
 2) Navigate to the project directory: cd E-Commerce
 3) Open the index.html file in your browser: open index.html
 
-#Project Structure
-├── css/
-│   ├── styles.css        # Custom styles
-├── js/
-│   ├── main.js           # Main JavaScript file for handling interactions
-│   ├── api.js            # Fetches data from Dummy API
-├── images/
-│   ├── logo.png          # Project logo
-│   └── product-images/   # Product images
-├── index.html            # Main HTML page
-├── README.md             # Project documentation (this file)
+#Home Page :- 
+1) Nav Bar :- Consist of 3D Navigation Bar
+![image](https://github.com/user-attachments/assets/d9300968-1858-4478-bd08-06b1e833272a)
+
+2) Main Section :- consist of 3d card containg the product image buy now and add to cart button 
+![image](https://github.com/user-attachments/assets/26a45332-5796-4290-8ed5-7df2893da7fe)
+
+3) Footer Section :- Consist of 3D footer section 
+![image](https://github.com/user-attachments/assets/5145d9da-fad5-479c-898e-2bb20b9445f2)
+
+User can easily modify the footer section by inserting his own details
+
 
 
 Dummy API
